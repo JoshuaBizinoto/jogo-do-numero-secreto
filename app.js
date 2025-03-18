@@ -3,7 +3,7 @@ titulo.innerHTML = 'Jogo do número secreto';
 let paragrafo = document.querySelector('p');
 paragrafo.innerHTML = 'Escolha um número de 1 e 10';*/
 let listaDeNumerosSorteados =[]; //receber os numeros sorteados na lista
-let numeroLimite = 3;
+let numeroLimite = 1000;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas =1;
 
